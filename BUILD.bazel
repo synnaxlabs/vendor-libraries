@@ -1,0 +1,11 @@
+cc_library(
+    name="nidaqmx",
+    srcs=["NIDAQmx.lib"],
+    visibility=["//visibility:public"],
+)
+
+cc_library(
+    name = "nisyscfg",
+    srcs = ["nisyscfg.lib"],
+    visibility = ["//visibility:public"],
+)
